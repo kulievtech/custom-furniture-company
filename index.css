@@ -1,12 +1,12 @@
 /* header */
 
 .container {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 header {
-    width: 1296px;
+    max-width: 1296px;
     margin: 41px auto 39px auto;
     position: relative;
 }
@@ -56,4 +56,101 @@ nav ul li a {
     right: 0;
     top: 0;
     margin-right: 0;
+}
+
+/* hero */
+
+.hero {
+    max-width: 1478px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero .background {
+    width: 100%;
+    height: 676px;
+    border-radius: 30px;
+    opacity: 0.4000000059604645;
+    background-color: var(--baby-pink);
+    display: inline-block;
+}
+
+.hero-left {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 75px 80px 76px 91px;
+}
+
+.hero-left img {
+    width: 434px;
+    height: 525px;
+    position: absolute;
+    z-index: 3;
+}
+
+.hero .green-circle {
+    width: 313px;
+    height: 313px;
+    border-radius: 50%;
+    background-color: var(--regular-green);
+    position: absolute;
+    top: 150px;
+    right: 15px;
+}
+
+.hero-right {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 0 0 80px;
+}
+
+.hero-right p:first-child {
+    color: var(--orange-red);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 6px;
+    margin: 129px 0 34px 0;
+    text-transform: uppercase;
+}
+
+.hero-right h1 {
+    color: var(--dark-navy);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
+
+.hero-right p:nth-last-of-type(2) {
+    color: var(--dark-navy);
+    font-family: Mazzard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 58px;
+}
+
+.hero hr {
+    width: 40px;
+    height: 4px;
+    background-color: var(--orange-red);
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.hero-right p:last-child {
+    display: inline-block;
+    text-transform: uppercase;
 }
