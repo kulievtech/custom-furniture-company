@@ -24,7 +24,8 @@
 
 :root {
     /* colors */
-
+    --super-dark-navy: #213053;
+    --orange: #f18b62;
     --blue: #1787fc;
     --orange-red: #ff794d;
     --light-blue: #ebf5ff;

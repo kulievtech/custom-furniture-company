@@ -1,0 +1,59 @@
+/* header */
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1296px;
+    margin: 41px auto 39px auto;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    color: var(--super-dark-navy);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    margin-right: 354px;
+}
+
+.logo span {
+    color: var(--orange);
+}
+
+nav li {
+    display: inline-block;
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: var(--dark-navy);
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin-right: 50px;
+}
+
+.sign-in {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 0;
+}
