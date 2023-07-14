@@ -60,7 +60,7 @@ nav ul li a {
 .sign-in {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 3px;
     margin-right: 0;
 }
 
@@ -713,4 +713,108 @@ nav ul li a {
 
 .note-wrapper img {
     margin-right: 11px;
+}
+
+/* footer */
+
+footer {
+    max-width: 1478px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+    position: relative;
+}
+
+footer .background {
+    width: 100%;
+    height: 501px;
+    border-radius: 30px;
+    opacity: 0.4000000059604645;
+    background-color: var(--baby-pink);
+    display: inline-block;
+    position: relative;
+}
+
+.footer-content {
+    width: 1129px;
+    height: 232px;
+    margin: 132px 258px 137px 91px;
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+}
+
+.logo-about {
+    width: 306px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 98px;
+}
+
+.contact {
+    width: 188px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 126px;
+}
+
+.product {
+    width: 104px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 168px;
+}
+
+.our-company {
+    width: 139px;
+    height: 100%;
+    display: inline-block;
+}
+
+footer li {
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    list-style-type: none;
+}
+
+footer li:not(last-child) {
+    margin-bottom: 22px;
+}
+
+footer h4 {
+    color: var(--dark-navy);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 4px;
+    margin-bottom: 73px;
+}
+
+.logo-about h4 {
+    color: var(--super-dark-navy);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    margin-bottom: 70px;
+}
+
+.logo-about span {
+    font-size: 24px;
+    color: var(--orange);
+}
+
+.logo-about p {
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    margin-bottom: 46px;
 }
