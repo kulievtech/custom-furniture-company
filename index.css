@@ -232,5 +232,107 @@ nav ul li a {
     opacity: 0.17000000178813934;
     border: none;
     border-top: 2px dashed var(--dark-navy);
-    margin-top: 100px;
+    margin-top: 115px;
+}
+
+/* product slider */
+
+.product-slider {
+    width: 100%;
+    padding-top: 102px;
+    position: relative;
+}
+
+.product-slider div:first-child {
+    width: 1296px;
+    margin: 0 auto;
+    margin-bottom: 51px;
+}
+
+.product-slider div:first-child h2 + img {
+    margin-right: 22px;
+}
+
+.product-slider h2 {
+    color: var(--dark-navy);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50.4px;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-right: 720px;
+}
+
+.product-slider div:nth-last-of-type(2) {
+    width: 1296px;
+    height: 652px;
+    margin: 0 auto;
+}
+
+.product-slider div:nth-last-of-type(2) img {
+    width: 420px;
+    height: 642px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-slider div:nth-last-of-type(2) img:first-child {
+    object-position: 50%;
+}
+
+.product-slider div:nth-last-of-type(2) img:nth-last-of-type(2) {
+    object-position: top right;
+}
+
+.product-slider div:nth-last-of-type(2) img:last-child {
+    object-position: bottom left;
+}
+
+.product-slider div:nth-last-of-type(2) img:first-child,
+.product-slider div:nth-last-of-type(2) img:nth-last-of-type(2) {
+    margin-right: 18px;
+}
+
+.product-slider .price-tag {
+    position: relative;
+}
+
+.product-slider .price-tag {
+    position: absolute;
+    width: 336px;
+    height: 115px;
+    border-radius: 10px;
+    background-color: var(--pure-white);
+    bottom: 25px;
+    right: 220px;
+}
+.price-tag span {
+    color: var(--orange-red);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1px;
+    display: block;
+    padding: 23px 241px 0 29px;
+    margin-bottom: 10px;
+}
+
+.price-tag p {
+    color: var(--dark-navy);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 0 18px 29px;
+    margin-right: 127px;
+}
+
+.price-tag img {
+    width: 19px;
+    height: 15.2;
 }
