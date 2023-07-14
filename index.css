@@ -534,7 +534,6 @@ nav ul li a {
     width: 1600px;
     height: 758px;
     display: inline-flex;
-    margin-bottom: 100px;
 }
 
 .testimonial-left {
@@ -621,4 +620,97 @@ nav ul li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* newsletter */
+
+.newsletter {
+    width: 1600px;
+    height: 676px;
+    position: relative;
+}
+
+.newsletter-content {
+    width: 604px;
+    height: 415px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newsletter-content h3 {
+    color: var(--dark-navy);
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50.4px;
+    letter-spacing: -1px;
+    margin-bottom: 36px;
+}
+
+.newsletter-content p {
+    color: var(--dark-navy);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    margin-bottom: 57px;
+}
+
+.newsletter-content .email-wrapper {
+    width: 604px;
+    height: 70px;
+    position: relative;
+    margin-bottom: 33px;
+}
+
+.email-wrapper input {
+    width: 404px;
+    height: 70px;
+    border: 1px solid var(--gray);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 21px 0 19px 28px;
+}
+
+.email-wrapper button {
+    color: var(--pure-white);
+    width: 200px;
+    height: 100%;
+    background-color: var(--regular-green);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.newsletter-content .note-wrapper {
+    width: 285px;
+    height: 28px;
+    margin: 0 168px 7px 155px;
+}
+
+.note-wrapper img,
+.note-wrapper p {
+    display: inline-block;
+}
+
+.note-wrapper img {
+    margin-right: 11px;
 }
