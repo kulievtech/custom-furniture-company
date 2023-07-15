@@ -11,13 +11,13 @@
 
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/Mazzard-Regular.ttf") format ("truetype");
+    src: url("./fonts/Mazzard-Regular.ttf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/Mazzard-SemiBold.otf") format ("truetype");
+    src: url("./fonts/Mazzard-SemiBold.otf") format("truetype");
     font-weight: 600;
 }
 

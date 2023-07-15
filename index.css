@@ -1,7 +1,7 @@
 /* header */
 
 .container {
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
     font-family: "Mazzard", sans-serif;
 }
@@ -165,7 +165,7 @@ nav ul li a {
 /* features */
 
 .features {
-    width: 1296px;
+    max-width: 1296px;
     height: 204px;
     margin: 0 auto;
     margin-top: 100px;
@@ -239,7 +239,7 @@ nav ul li a {
 /* product slider */
 
 .product-slider {
-    width: 100%;
+    max-width: 100%;
     padding-top: 102px;
     position: relative;
 }
@@ -341,8 +341,7 @@ nav ul li a {
 /* working process */
 
 .working-process {
-    width: 100%;
-    height: 1101px;
+    padding: 80px 150px;
 }
 
 .working-process h2 {
@@ -363,8 +362,6 @@ nav ul li a {
 .first-step,
 .second-step,
 .third-step {
-    width: 1296px;
-    margin: 0 auto;
     position: relative;
 }
 
@@ -534,6 +531,7 @@ nav ul li a {
     width: 1600px;
     height: 758px;
     display: inline-flex;
+    background-color: greenyellow;
 }
 
 .testimonial-left {
@@ -792,6 +790,10 @@ footer h4 {
     line-height: 22px;
     letter-spacing: 4px;
     margin-bottom: 73px;
+}
+
+footer h4:not(.logo-about h4) {
+    text-transform: uppercase;
 }
 
 .logo-about h4 {
