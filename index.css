@@ -1,14 +1,5 @@
 /* header */
 
-body {
-    font-family: "Mazzard", sans-serif;
-}
-
-.container {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 header .container {
     padding: 41px 152px 39px 152px;
     position: relative;
@@ -510,6 +501,7 @@ nav ul li a:not(last-child) {
 
 .testimonial-container {
     display: inline-flex;
+    margin-bottom: 136px;
 }
 
 .testimonial-left {
@@ -597,14 +589,12 @@ nav ul li a:not(last-child) {
 
 /* newsletter */
 
-#newsletter {
-}
-
 #newsletter .container {
     position: relative;
     width: 100%;
     height: auto;
     height: 500px;
+    margin-bottom: 136px;
 }
 
 .newsletter-content {
@@ -676,43 +666,6 @@ nav ul li a:not(last-child) {
     position: absolute;
 }
 
-/* .email-wrapper {
-    position: relative;
-    margin-bottom: 33px;
-    background-color: black;
-}
-
-.email-wrapper input {
-    width: 404px;
-    height: 70px;
-    border: 1px solid var(--gray);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: var(--dark-navy);
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.email-wrapper button {
-    color: var(--pure-white);
-    width: 200px;
-    height: 100%;
-    background-color: var(--regular-green);
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    position: absolute;
-    cursor: pointer;
-} */
-
 .newsletter-content .note-wrapper {
     text-align: center;
 }
@@ -725,79 +678,6 @@ nav ul li a:not(last-child) {
 .note-wrapper p {
     display: inline-block;
 }
-
-/* #newsletter .container {
-    padding: 136px 498px 125px;
-}
-
-.newsletter-content h3 {
-    text-align: center;
-    color: var(--dark-navy);
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50.4px;
-    letter-spacing: -1px;
-    margin-bottom: 36px;
-}
-
-.newsletter-content p {
-    color: var(--dark-navy);
-    text-align: center;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    opacity: 0.699999988079071;
-    margin-bottom: 57px;
-    display: inline-block;
-}
-
-.newsletter-content .email-wrapper {
-    position: relative;
-    margin-bottom: 33px;
-}
-
-.email-wrapper input {
-    width: 404px;
-    height: 70px;
-    border: 1px solid var(--gray);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: var(--dark-navy);
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 21px 0 19px 28px;
-}
-
-.email-wrapper button {
-    color: var(--pure-white);
-    width: 200px;
-    height: 100%;
-    background-color: var(--regular-green);
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    position: absolute;
-    cursor: pointer;
-}
-
-.newsletter-content .note-wrapper {
-    padding: 0 100px 0 142px;
-}
-
-.note-wrapper img,
-.note-wrapper p {
-    display: inline-block;
-} */
 
 /* footer */
 
@@ -895,3 +775,28 @@ footer h4:not(.logo-about h4) {
     margin-bottom: 46px;
     width: 277px;
 }
+
+/* .logo-about p {
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    margin-bottom: 46px;
+    width: 277px;
+}
+
+
+.logo-about p {
+    color: var(--dark-navy);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    margin-bottom: 46px;
+    width: 277px;
+} */
+
+/* Fix the css more */

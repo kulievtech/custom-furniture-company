@@ -69,3 +69,14 @@
     --space-96: 96px;
     --space-110: 110px;
 }
+
+/* base css */
+
+body {
+    font-family: "Mazzard", sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
