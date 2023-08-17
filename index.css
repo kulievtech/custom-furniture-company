@@ -1,13 +1,12 @@
 /* header-section */
 
 .header-content {
-    padding: 42px 152px;
+    padding: 4.2rem 15.2rem;
 }
-
 .logo {
     display: inline-block;
     color: var(--super-dark-navy);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -18,7 +17,7 @@
 
 .logo span {
     color: var(--orange);
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 nav {
@@ -33,17 +32,17 @@ nav li {
 }
 
 nav ul li:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 
 header a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: inline-block;
     color: var(--dark-navy);
     font-style: normal;
-    font-weight: 600px;
-    line-height: 30px;
+    font-weight: 600;
+    line-height: 3rem;
 }
 
 .sign-in {
@@ -53,13 +52,13 @@ header a {
 /* hero-section */
 
 #hero .container {
-    padding: 0 62px;
+    padding: 0 6.2rem;
 }
 
 .hero-section-content {
     background-color: rgba(250, 226, 218, 0.5);
-    border-radius: 30px;
-    padding: 129px 92px;
+    border-radius: 3rem;
+    padding: 12.9rem 9.2rem;
 }
 
 .hero-left {
@@ -91,66 +90,66 @@ header a {
     width: 60%;
     vertical-align: top;
     vertical-align: middle;
-    padding-left: 100px;
+    padding-left: 10rem;
 }
 
 .hero-right p:first-child {
     color: var(--orange-red);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 6px;
-    margin-bottom: 34px;
+    line-height: 2.2rem;
+    letter-spacing: 0.6rem;
+    margin-bottom: 3.4rem;
     text-transform: uppercase;
 }
 
 .hero-right h1 {
     color: var(--dark-navy);
-    font-size: 60px;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 66px;
-    letter-spacing: -1px;
-    margin-bottom: 27px;
-    width: 80%;
+    line-height: 6.6rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 2.7rem;
+    width: calc(((659 * 100) / 850) * 1%);
 }
 
 .hero-right p:nth-last-of-type(2) {
     color: var(--dark-navy);
-    font-size: 15px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 58px;
-    width: 65%;
+    line-height: 2.8rem;
+    margin-bottom: 5.8rem;
+    width: calc(((550 * 100) / 850) * 1%);
 }
 
 #hero hr {
-    width: 40px;
-    height: 4px;
+    width: 4rem;
+    height: 0.4rem;
     background-color: var(--orange-red);
     border: none;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 .hero-right p:last-child {
     color: var(--dark-navy);
     display: inline-block;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
 }
 
 /* features-section */
 
 .features-content {
-    padding: 100px 152px;
+    padding: 10rem 15.2rem;
 }
 
 .features-card {
@@ -192,38 +191,38 @@ header a {
 
 .features-text-wrapper h2 {
     color: var(--dark-navy);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.3px;
-    margin-bottom: 15px;
+    line-height: 3.2rem;
+    letter-spacing: -0.03rem;
+    margin-bottom: 1.5rem;
 }
 
 .features-text-wrapper p {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: var(--dark-navy);
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
-    opacity: 0.800000011920929;
+    line-height: 2.8rem;
+    opacity: 0.8;
 }
 
 /* product-slider-section */
 
 .product-slider-content {
-    padding: 102px 152px;
+    padding: 10.2rem 15.2rem;
 }
 
 .product-slider-content h2 {
     color: var(--dark-navy);
-    font-size: 42px;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 50.4px;
-    letter-spacing: -1px;
+    line-height: 5rem;
+    letter-spacing: -0.1rem;
     display: inline-block;
-    width: calc(100% - 72px);
+    width: calc(100% - 7.2rem);
 }
 
 .arrow-images {
@@ -232,29 +231,29 @@ header a {
 }
 
 .arrow-right {
-    margin-left: 22px;
+    margin-left: 2.2rem;
 }
 
 .product-slider-top {
-    margin-bottom: 46px;
+    margin-bottom: 4.6rem;
 }
 
 .img-card {
     display: inline-block;
     width: calc((100% - 40px) / 3);
     vertical-align: top;
-    height: 680px;
+    height: 68rem;
 }
 
 .img-card img:not(.price-tag img) {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 1.5rem;
 }
 
 .img-card:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .last-image-card {
@@ -263,65 +262,65 @@ header a {
 
 .price-tag {
     width: 80%;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: var(--pure-white);
     position: absolute;
-    bottom: 15px;
-    right: 65px;
-    padding: 23px 75px 18px 29px;
+    bottom: 1.5rem;
+    right: 6.5rem;
+    padding: 2.3rem 7.5rem 1.8rem 2.9rem;
 }
 .price-tag span {
     color: var(--orange-red);
-    font-size: 32px;
+    font-size: 3.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 42px;
-    letter-spacing: -1px;
+    line-height: 4.2rem;
+    letter-spacing: -0.1rem;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .price-tag p {
     color: var(--dark-navy);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
     display: inline-block;
 }
 
 .price-tag img {
     position: absolute;
-    right: 20px;
+    right: 2rem;
 }
 
 /* working-process-section */
 
 .working-process-content {
-    padding: 152px 165px;
+    padding: 15.2rem 16.5rem;
 }
 
 .working-process-content h2 {
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 4px;
-    opacity: 0.699999988079071;
-    margin-bottom: 113px;
+    line-height: 3rem;
+    letter-spacing: 0.4rem;
+    opacity: 0.7;
+    margin-bottom: 11.3rem;
     text-transform: uppercase;
 }
 
 .steps-wrapper span:first-child {
     color: var(--regular-green);
-    font-size: 28px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 40px;
-    letter-spacing: -0.5px;
+    line-height: 4rem;
+    letter-spacing: -0.05rem;
     display: inline-block;
     width: calc(((36 * 100) / 1270) * 1%);
     margin-right: calc(((74 * 100) / 1270) * 1%);
@@ -330,11 +329,11 @@ header a {
 
 .steps-wrapper h3 {
     color: var(--dark-navy);
-    font-size: 36px;
+    font-size: 3.6rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 46px;
-    letter-spacing: -1px;
+    line-height: 4.6rem;
+    letter-spacing: -0.1rem;
     display: inline-block;
     width: calc(((306 * 100) / 1270) * 1%);
     margin-right: calc(((90 * 100) / 1270) * 1%);
@@ -342,11 +341,11 @@ header a {
 }
 
 .steps-wrapper p {
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.6000000238418579;
+    line-height: 3rem;
+    opacity: 0.6;
     display: inline-block;
     width: calc(((416 * 100) / 1270) * 1%);
     margin-right: calc(((150 * 100) / 1270) * 1%);
@@ -358,27 +357,27 @@ header a {
 }
 
 .learn-more-wrapper hr {
-    width: 30px;
-    height: 4px;
+    width: 3rem;
+    height: 0.4rem;
     background-color: var(--orange-red);
     border: none;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-right: 26px;
+    margin-right: 2.6rem;
 }
 
 .learn-more-wrapper span {
     color: var(--dark-navy);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
     display: inline-block;
 }
 
 .steps-wrapper:not(:last-child) {
-    margin-bottom: 170px;
+    margin-bottom: 17rem;
 }
 
 /* marketing-section */
@@ -391,7 +390,7 @@ header a {
     width: 40%;
     display: inline-block;
     vertical-align: middle;
-    padding: 177px 0 190px 151px;
+    padding: 17.7rem 0 19rem 15.1rem;
 }
 
 .marketing-image-wrapper {
@@ -400,7 +399,7 @@ header a {
 
 .marketing-image-wrapper img:first-child {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 1.5rem;
 }
 
 .marketing-image-wrapper img:last-child {
@@ -414,47 +413,47 @@ header a {
     width: 60%;
     display: inline-block;
     vertical-align: middle;
-    padding: 0 338px 0 176px;
+    padding: 0 33.8rem 0 17.6rem;
 }
 
 .marketing-right h3 {
     color: var(--dark-navy);
-    font-size: 42px;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 50.4px;
-    letter-spacing: -1px;
-    margin-bottom: 19px;
+    line-height: 5rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 1.9rem;
     width: 70%;
 }
 
 .marketing-right p {
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.6000000238418579;
-    margin-bottom: 46px;
+    line-height: 3rem;
+    opacity: 0.6;
+    margin-bottom: 4.6rem;
 }
 
 .marketing-right .explore-wrapper hr {
-    width: 40px;
-    height: 4px;
+    width: 4rem;
+    height: 0.4rem;
     background-color: var(--orange-red);
     border: none;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-right: 24px;
+    margin-right: 2.4rem;
 }
 
 .marketing-right .explore-wrapper span {
     color: var(--dark-navy);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
 }
 
@@ -464,49 +463,49 @@ header a {
     width: 50%;
     background-color: var(--orange-red);
     display: inline-block;
-    padding: 227px 110px 201px 152px;
+    padding: 22.7rem 11rem 20.1rem 15.2rem;
     vertical-align: top;
 }
 
 .testimonial-left blockquote {
     color: var(--pure-white);
-    font-size: 42px;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 50.4px;
-    letter-spacing: -1px;
-    margin-bottom: 62px;
+    line-height: 5rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 6.2rem;
 }
 
 .testimonial-left .cite-person-wrapper p {
     color: var(--pure-white);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.3px;
+    line-height: 3.2rem;
+    letter-spacing: -0.03rem;
     display: inline-block;
 }
 
 .testimonial-left .cite-person-wrapper hr {
-    width: 30px;
-    height: 4px;
+    width: 3rem;
+    height: 0.4rem;
     background-color: var(--pure-white);
     border: none;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 .testimonial-left span {
     color: var(--pure-white);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.800000011920929;
+    line-height: 3rem;
+    opacity: 0.8;
     display: inline-block;
-    padding-left: 55px;
+    padding-left: 5.5rem;
 }
 
 .testimonial-right {
@@ -518,7 +517,7 @@ header a {
 
 .lady-image {
     width: 100%;
-    height: 703.5px;
+    height: 70.35rem;
     object-fit: cover;
 }
 
@@ -541,7 +540,7 @@ header a {
 
 .newsletter-content {
     display: inline-block;
-    padding: 136px 500px;
+    padding: 13.6rem 50rem;
 }
 
 .newsletter-content :not(.email-wrapper) {
@@ -550,64 +549,64 @@ header a {
 
 .newsletter-content h3 {
     color: var(--dark-navy);
-    font-size: 42px;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 50.4px;
-    letter-spacing: -1px;
-    margin-bottom: 36px;
+    line-height: 5rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 3.6rem;
 }
 
 .newsletter-content p {
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.699999988079071;
-    margin-bottom: 57px;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 5.7rem;
     display: inline-block;
 }
 
 .email-wrapper {
-    height: 70px;
-    margin-bottom: 33px;
+    height: 7rem;
+    margin-bottom: 3.3rem;
     position: relative;
 }
 
 .email-wrapper input {
     width: 60%;
     height: 100%;
-    border: 1px solid var(--gray);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border: 0.1rem solid var(--gray);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    padding-left: 28px;
+    line-height: 3rem;
+    padding-left: 2.8rem;
 }
 
 .email-wrapper button {
     width: 40%;
     height: 100%;
     background-color: var(--regular-green);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
     border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     cursor: pointer;
     position: absolute;
 }
 
 .note-wrapper img {
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .note-wrapper img,
@@ -618,50 +617,50 @@ header a {
 /* footer-section */
 
 footer {
-    margin-bottom: 63px;
+    margin-bottom: 6.3rem;
 }
 
 footer .container {
-    padding: 0 61px;
+    padding: 0 6.1rem;
 }
 
 .footer-content {
     background-color: rgba(250, 226, 218, 0.5);
-    border-radius: 30px;
-    padding: 135px 92px;
+    border-radius: 3rem;
+    padding: 13.5rem 9.2rem;
 }
 
 .footer-content-card {
     display: inline-block;
-    width: calc((100% - 360px) / 4);
+    width: calc((100% - 36rem) / 4);
 }
 
 .footer-content-card:not(:last-child) {
-    margin-right: 120px;
+    margin-right: 12rem;
 }
 
 footer li {
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.699999988079071;
+    line-height: 3rem;
+    opacity: 0.7;
     list-style-type: none;
 }
 
 footer li:not(:last-child) {
-    margin-bottom: 22px;
+    margin-bottom: 2.2rem;
 }
 
 footer h4 {
     color: var(--dark-navy);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 4px;
-    margin-bottom: 73px;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 7.3rem;
 }
 
 footer h4:not(.logo-about h4) {
@@ -670,25 +669,25 @@ footer h4:not(.logo-about h4) {
 
 .logo-about h4 {
     color: var(--super-dark-navy);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: -0.2px;
-    margin-bottom: 70px;
+    letter-spacing: -0.02rem;
+    margin-bottom: 7rem;
 }
 
 .logo-about span {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: var(--orange);
 }
 
 .logo-about p {
     color: var(--dark-navy);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    opacity: 0.699999988079071;
-    margin-bottom: 46px;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 4.6rem;
 }
