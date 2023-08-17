@@ -51,23 +51,23 @@
 
     /* font size */
 
-    --space-11: 11px;
-    --space-13: 13px;
-    --space-16: 16px;
-    --space-18: 18px;
-    --space-21: 21px;
-    --space-24: 24px;
-    --space-28: 28px;
-    --space-32: 32px;
-    --space-36: 36px;
-    --space-42: 42px;
-    --space-48: 48px;
-    --space-60: 60px;
-    --space-64: 64px;
-    --space-70: 70px;
-    --space-80: 80px;
-    --space-96: 96px;
-    --space-110: 110px;
+    --space-11: 1.1rem;
+    --space-13: 1.3rem;
+    --space-16: 1.6rem;
+    --space-18: 1.8rem;
+    --space-21: 2.1rem;
+    --space-24: 2.4rem;
+    --space-28: 2.8rem;
+    --space-32: 3.2rem;
+    --space-36: 3.6rem;
+    --space-42: 4.2rem;
+    --space-48: 4.8rem;
+    --space-60: 6rem;
+    --space-64: 6.4rem;
+    --space-70: 7rem;
+    --space-80: 8rem;
+    --space-96: 9.6rem;
+    --space-110: 11rem;
 }
 
 /* base css */
@@ -77,6 +77,10 @@ body {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 160rem;
     margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
 }
