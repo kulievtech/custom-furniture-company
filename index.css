@@ -11,8 +11,9 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.2px;
-    width: calc(((80 * 100) / 1296) * 1%);
-    margin-right: calc(((354 * 100) / 1296) * 1%);
+    /* width: calc(((80 * 100) / 1296) * 1%); */
+    /* margin-right: calc(((354 * 100) / 1296) * 1%); */
+    width: 10%;
 }
 
 .logo span {
@@ -23,8 +24,9 @@
 nav {
     display: inline-block;
     text-align: center;
-    width: calc(((429 * 100) / 1296) * 1%);
-    margin-right: calc(((379 * 100) / 1296) * 1%);
+    /* width: calc(((429 * 100) / 1296) * 1%);
+    margin-right: calc(((379 * 100) / 1296) * 1%); */
+    width: 80%;
 }
 
 nav li {
@@ -46,7 +48,9 @@ header a {
 }
 
 .sign-in {
-    width: calc(((54 * 100) / 1296) * 1%);
+    /* width: calc(((54 * 100) / 1296) * 1%); */
+    width: 10%;
+    text-align: right;
 }
 
 /* hero-section */
